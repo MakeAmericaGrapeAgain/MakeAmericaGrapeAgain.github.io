@@ -4,8 +4,10 @@
 <head>
 	<title>Meme Supreme</title>
 	<link rel = "stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="lightbox/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="lightbox/lightbox.js"></script>
 </head>
-
+<body>
 
 <div class="header" id="divs">
   <img src="https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif" alt="" id=snoop>  <img src="https://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif" alt="" id=snoop class="snoopfloat">
@@ -25,18 +27,24 @@
       <li>Email</li>
       <li>test2</li>
       </li></ul>
-      <li>Login</li>
+     <li><a href="login.html">Login</a></li>
       <li><a href="signup.html">Sign Up</a></li>
   </ul>
 </div>
 </div>
 </div>
-<body>
 <p class="begintext">
 Welcome to MemeSupreme.com.</p> <p class="begintext"> This is a simple website dedicated to the presentation of high quality and enjoyable memes, gifs and entertainment. Submitting Memes and Gifs for others to see is a very basic and important feature of Meme Supreme.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1zLZis20fu8" frameborder="0" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>  Add a video here later. Find/Create A good intro to the website-->
+<div class="grid" data-isotope='{ "itemSelector": ".grid-item", "layoutMode": "fitRows" }'>
+  <div class="grid-item"><img class="gandolf"src="http://ww1.hdnux.com/photos/45/70/31/9930344/3/1024x1024.jpg"></div>
+  <div class="grid-item grid-item--width2"><a  href="http://images1.westword.com/imager/u/745xauto/7544806/cam.newton.sucks.memes.1.jpg" rel="lightbox" title="" ><img class="et" src="http://images1.westword.com/imager/u/745xauto/7544806/cam.newton.sucks.memes.1.jpg"/></a></div>
+  <div class="grid-item">  <a  href="http://news.hiphopearly.com/wp-content/uploads/2016/01/Meek-50-memes-8.png" rel="lightbox" title="" ><img class="et" src="http://news.hiphopearly.com/wp-content/uploads/2016/01/Meek-50-memes-8.png" /></a></div>
+    <div class="grid-item">  <a  href="hhttp://s.quickmeme.com/img/c9/c9c9573e46b3fb7bd6003c62958f4e9bbe9b305801c1e14dff0ab955172c0f74.jpg" rel="lightbox" title="" ><img class="et" src="http://s.quickmeme.com/img/c9/c9c9573e46b3fb7bd6003c62958f4e9bbe9b305801c1e14dff0ab955172c0f74.jpg" /></a></div>
+</div>
 </body>
-
+<div class="RecentMemes"></div>
+<script src="js/isotope.pkgd.js"></script>
 
 
 </html>

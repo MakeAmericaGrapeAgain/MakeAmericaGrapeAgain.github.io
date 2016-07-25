@@ -26,7 +26,7 @@
 }
 
 body{
-  width: 800px;
+  max-width: 800px;
   margin: 60px auto;
 	color: blue;
 }
@@ -175,4 +175,12 @@ input[type="submit"] {
 }
 .signup{
   height:300px;
+}
+.gandolf{
+width:200px;
+}
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 25%; }
+.et{
+  width:200px;
 }
